@@ -1,4 +1,4 @@
-# desafio-front-end-vue-js
+# Desafio-front-end-vue-js
 
 Para acessar o projeto corretamente, é necessário estar na branch **"LeonardoJaques"** e ter o 
 **Node.js versão 19 instalado**. 
