@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 p-4 rounded-lg mb-4 shadow-md">
-    <h2 class="text-lg font-semibold mb-2">{{ userData.name }} VIEW</h2>
+    <h2 class="text-lg font-semibold mb-2">{{ userData.name }} </h2>
     <div class="grid grid-cols-2 gap-4">
       <div class="flex flex-col">
         <label class="text-gray-500 text-sm mb-1">Nome da mãe:</label>
@@ -28,10 +28,16 @@
 
 <script setup>
 
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import store from '@/stores/store'
+import router from '@/router'
 
 const userData = computed(() => store.getUserData())
 
+onMounted(() => {
+  if (!userData.value.id) {
+    router.push({ name: 'PatientView' })
+  }
+})
 
 </script>

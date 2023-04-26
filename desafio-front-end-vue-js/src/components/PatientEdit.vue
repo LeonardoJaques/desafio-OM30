@@ -39,7 +39,7 @@
   </template>
   
   <script setup>
-  import { computed, reactive } from 'vue';
+  import { computed, reactive,onMounted } from 'vue';
   import store from '@/stores/store';
   import router from '@/router';
   
@@ -61,6 +61,11 @@
   });
 
 
+  onMounted(() => {
+  if (!userData.value.id) {
+    router.push({ name: 'PatientView' })
+  }
+})
   
   async function updateUserData() {
     store.setUserData(newData);
