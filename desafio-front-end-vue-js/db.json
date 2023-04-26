@@ -1,19 +1,5 @@
 {
   "users": [
-    {
-      "name": "LEONARDO ALVES",
-      "motherName": "LEONARDO ALVES DE ARAUJO JAQUES",
-      "birthdate": "2023-04-18",
-      "cpf": "08819158744",
-      "cns": "700007368773400",
-      "street": "Rua Albertino Araújo",
-      "number": "1",
-      "neighborhood": "Penha Circular",
-      "city": "Rio de Janeiro",
-      "state": "RJ",
-      "cep": "21215-020",
-      "gender": "Masculino",
-      "id": 1
-    }
+    
   ]
 }
