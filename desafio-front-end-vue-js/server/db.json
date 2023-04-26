@@ -1,0 +1,29 @@
+{
+    "patients": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "gender": "Male",
+        "phone": "555-555-5555",
+        "email": "john.doe@example.com",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 25,
+        "gender": "Female",
+        "phone": "555-555-5556",
+        "email": "jane.smith@example.com",
+        "address": "456 Oak St",
+        "city": "Othertown",
+        "state": "CA",
+        "zip": "67890"
+      }
+    ]
+  }
+  
